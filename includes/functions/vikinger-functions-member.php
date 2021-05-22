@@ -1046,7 +1046,7 @@ if (!function_exists('vikinger_members_get_settings_navigation_sections')) {
     // profile sections
     $profile_sections = [
       'title'       => esc_html_x('My Profile', 'Profile Settings Menu - Title', 'vikinger'),
-      'description' => esc_html_x('Change your avatar &amp; cover, accept friends, read messages and more!', 'Profile Settings Menu - Description', 'vikinger'),
+      'description' => esc_html_x('Change your avatar &amp; cover, accept friends, read messages and more.', 'Profile Settings Menu - Description', 'vikinger'),
       'icon'        => 'profile',
       'menu_items'  => [
         [
@@ -1368,5 +1368,3 @@ if (!function_exists('vikinger_member_cover_delete')) {
     return false;
   }
 }
-
-?>

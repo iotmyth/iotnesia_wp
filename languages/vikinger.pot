@@ -3896,7 +3896,7 @@ msgstr ""
 
 #: includes/functions/vikinger-functions-member.php:1049
 msgctxt "Profile Settings Menu - Description"
-msgid "Change your avatar &amp; cover, accept friends, read messages and more!"
+msgid "Change your avatar &amp; cover, accept friends, read messages and more."
 msgstr ""
 
 #: includes/functions/vikinger-functions-member.php:1053
