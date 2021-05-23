@@ -47,7 +47,7 @@ msgstr ""
 "Parace que te perdiste y encontraste un agujero negro que absorbió la página "
 "que estabas buscando! Pero no te preocupes, puedes volver atras!%sSi el "
 "problema persiste, porfavor envía un email a nuestro equipo de soporte a "
-"%ssupport@vikinger.com%s"
+"%ssupport@iotnesia.com%s"
 
 #: 404.php:18 includes/customizer/vikinger-customizer-404.php:68
 msgid "Go Back"

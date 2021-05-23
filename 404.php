@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Vikinger Template - 404
  * 
@@ -10,18 +11,18 @@
  * 
  */
 
-  get_header();
+get_header();
 
-  $error_image_id     = get_theme_mod('vikinger_404_setting_image', false);
-  $error_title        = get_theme_mod('vikinger_404_setting_title', esc_html__('OOPS!!...Wrong Turn!!', 'vikinger'));
-  $error_description  = get_theme_mod('vikinger_404_setting_description', sprintf(esc_html__('Seems that you encountered a web black hole that absorbed the page you were looking for! But don\'t panic because you can go back!%sIf the problem persists, please send us an email to our support team at %ssupport@vikinger.com%s', 'vikinger'), '<br><br>', '<a href="mailto:support@vikinger.com">', '</a>'));
-  $error_button_text  = get_theme_mod('vikinger_404_setting_button_text', esc_html__('Go Back', 'vikinger'));
+$error_image_id     = get_theme_mod('vikinger_404_setting_image', false);
+$error_title        = get_theme_mod('vikinger_404_setting_title', esc_html__('OOPS!!...Wrong Turn!!', 'vikinger'));
+$error_description  = get_theme_mod('vikinger_404_setting_description', sprintf(esc_html__('Seems that you encountered a web black hole that absorbed the page you were looking for! But don\'t panic because you can go back!%sIf the problem persists, please send us an email to our support team at %ssupport@iotnesia.com%s', 'vikinger'), '<br><br>', '<a href="mailto:support@iotnesia.com">', '</a>'));
+$error_button_text  = get_theme_mod('vikinger_404_setting_button_text', esc_html__('Go Back', 'vikinger'));
 
-  if ($error_image_id) {
-    $error_image_url = wp_get_attachment_image_src($error_image_id , 'full')[0];
-  } else {
-    $error_image_url = vikinger_customizer_404_page_image_get_default();
-  }
+if ($error_image_id) {
+  $error_image_url = wp_get_attachment_image_src($error_image_id, 'full')[0];
+} else {
+  $error_image_url = vikinger_customizer_404_page_image_get_default();
+}
 
 ?>
 
